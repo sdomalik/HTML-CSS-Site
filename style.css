@@ -1,0 +1,63 @@
+body {
+    background-image: url("swirl_pattern.png");
+}
+.nav {
+    background-color: rgba(245, 255, 250, 0.8);
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-brand {
+    font-size: 45px;
+    font-weight: 700;
+}
+.carousel-item img {
+    width: 100%;
+}
+#carousel {
+    background-color: rgba(245, 255, 250, 0.75);
+}
+.info-box {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(245, 255, 250, 0.75);
+}
+#exp-box {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(245, 255, 250, 0.75);
+}
+#car-box img {
+    width: 100%;
+}
+#car-box div p {
+    font-weight: 400;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(245, 255, 250, 0.75);
+}
+#car-box button {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    background-color: white;
+    opacity: 0.3;
+}
+#car-box button:hover {
+    opacity: 0.75;
+    transition: all 0.3s ease-in-out 0s;
+}
+#map {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(245, 255, 250, 0.75);
+
+}
+#social {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(245, 255, 250, 0);
+    
+}
+#social a{
+    color: black;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>W Starym Stylu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">      
+    <link rel="stylesheet" href="style.css">    
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+</head>
+<body>
+    <main class="container pl-0 pr-0 ">
+        <!-- Pasek nawigacyjny -->
+        <nav class="nav navbar navbar-light navbar-expand-lg sticky-top shadow mb-3 mt-2">
+            <a href="index.html" class="navbar-brand">W Starym Stylu</a>
+
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="przełącznik nawigacji">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Start</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">O nas!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nasze samochody</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cennik</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">Województwo</a>
+                        <div class="dropdown-menu" aria-labelledby="submenu">
+                            <a class="dropdown-item" href="#">Małopolskie</a>
+                            <a class="dropdown-item" href="#">Śląskie</a>
+                            <a class="dropdown-item" href="#">Świętokrzyskie</a>
+                            <a class="dropdown-item" href="#">Opolskie</a>
+                            <a class="dropdown-item" href="#">Łódzkie</a>
+                        </div>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Slidder -->
+        <div id="carousel" class="carousel slide p-2 shadow" data-ride="carousel" >
+            <ul class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ul>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="zdj1.jpg" alt="#">
+                </div>
+                <div class="carousel-item">
+                    <img src="zdj2.jpg" alt="#">
+                </div>
+                <div class="carousel-item">
+                    <img src="zdj3.jpg" alt="#">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+
+        </div>
+        <!-- Informacja -->
+        <div class="row d-flex justify-conent-center justify-content-md-around mt-3 mr-0 ml-0 mb-5 info-box">
+
+                <div class="col-md-4 d-flex justify-content-center justify-content-md-around align-items-center shadow">
+                    <div class="col-3 col-md-2 col-lg-3 d-flex flex-column align-items-center justify-content-center">
+                        <i class="fas fa-search-location fa-2x"></i>
+                    </div>
+                    <div class="col-9 col-md-7 col-lg-9  d-flex flex-column justify-content-center">
+                        Sprawdź czy działamy w Twojej okolicy!
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center justify-content-md-around align-items-center shadow ">
+                    <div class="col-3 col-md-2 col-lg-3 d-flex flex-column align-items-center justify-content-center">
+                        <i class="fas fa-check-double fa-2x"></i>
+                    </div>
+                    <div class="col-9 col-md-7 col-lg-9  d-flex flex-column justify-content-center">
+                        Wybierz samochód i rodzaj dekoracji!
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center justify-content-md-around align-items-center shadow ">
+                    <div class="col-3 col-md-2 col-lg-3 d-flex flex-column align-items-center justify-content-center">
+                        <i class="fas fa-calendar-check fa-2x"></i>
+                    </div>
+                    <div class="col-9 col-md-7 col-lg-9  d-flex flex-column justify-content-center">
+                        Wybierz datę i godzinę!
+                    </div>
+
+                </div>
+        </div>
+        <!-- Notka  -->
+        <div class="row d-block justify-content-center justify-content-md-around mb-5 mr-0 ml-0 " id="exp-box">
+            <div class="col-sm d-flex justify-content-center justify-content-md-around align-items-center">
+                <h1>Dlaczego my?</h1>
+            </div>
+            <div class="col-sm d-block justify-content-center justify-content-md-around align-items-center">
+                 Ponieważ, jesteśmy rzetelnym przedsiębiorstwem dbającym od ponad 3 lat o to, aby najważniejszy dzień w życiu naszych klientów był jeszcze bardziej wyjątkowy. Nasze doświadczenie i obsługa pozwalają na idealne zaplanowanie podróży Nowożeńców a samochody, którymi dysponujemy nadadzą nieodzownego stylu i klimatu!
+            </div>
+        </div>
+
+        <!-- oferta -->
+        <div class="row d-flex justify-content-center justify-content-md-center mb-3 " id="car-box">
+            <div class="col-12 d-flex justify-content-center">
+                <p>Wybrane samochody z naszej oferty: </p>
+            </div>
+            <div class="col-md-6 mb-3">
+                <img class="rounded" src="zdj4.jpg" alt="#">
+                <button type="button" class="btn btn-secondrary btn-lg btn-block">Zobacz ofertę</button>
+            </div>
+            <div class="col-md-6 mb-3">
+                <img class="rounded" src="zdj5.jpg" alt="#">
+                <button type="button" class="btn btn-secondrary btn-lg btn-block">Zobacz ofertę</button>
+            </div>
+            <div class="col-md-6 mb-3">
+                <img class="rounded" src="zdj9.jpg" alt="#">
+                <button type="button" class="btn btn-secondrary btn-lg btn-block">Zobacz ofertę</button>
+            </div>
+            <div class="col-md-6 mb-3">
+                <img class="rounded" src="zdj10.jpg" alt="#">
+                <button type="button" class="btn btn-secondrary btn-lg btn-block">Zobacz ofertę</button>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img class="rounded" src="zdj6.jpg" alt="">
+                <button type="button" class="btn btn-secondrary btn-lg btn-block">Zobacz ofertę</button>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img class="rounded" src="zdj7.jpg" alt="">
+                <button type="button" class="btn btn-secondrary btn-lg btn-block">Zobacz ofertę</button>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img class="rounded" src="zdj8.jpg" alt="">
+                <button type="button" class="btn btn-secondrary btn-lg btn-block">Zobacz ofertę</button>
+            </div>
+
+        </div>
+
+        <div class="row d-flex mr-0 ml-0 mb-5" id="map">
+            <div class="col-md-12 d-flex justify-content-center mb-1">
+                Tutaj nas znajdziesz!
+            </div>
+            <div class="col-md-6 d-flex justify-content-center justify-content-md-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.327260648139!2d20.023548916087694!3d50.09888117942842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47164556bf54e4b7%3A0x12e8e4d86eae1c80!2sMistrzejowicka+36%2C+31-651+Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1537894011174" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6 d-flex justify-conent-center justify-content-md-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2553.6996759593762!2d19.045768216090593!3d50.20414437944214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716cf5b19a9bc0f%3A0xd0e7f10072ba774f!2sBielska+37%2C+40-749+Katowice!5e0!3m2!1spl!2spl!4v1537894432236" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center justify-content-md-center mb-5" id="social">
+            <div class="col-12 d-flex justify-content-center mb-3">
+                Odwiedź nas również na:
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                    <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <a href="#"><i class="fab fa-instagram fa-3x"></i></a> 
+            </div>                   
+            <div class="col-md-4 d-flex justify-content-center">
+                   <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+            </div>
+        </div>
+
+        
+    </main>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
